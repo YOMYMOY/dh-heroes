@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 35rem;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    max-height: 30rem;
+    max-width: 30rem;
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#error{
+    background-color: #ffbc01;
+}
+
+a img{
+    padding-right: 2rem;
+    width: 10rem;
+    height: 10rem;
+   /*  image-rendering: optimizeQuality; */
+}
